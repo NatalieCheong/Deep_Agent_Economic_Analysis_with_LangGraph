@@ -1,6 +1,6 @@
 # Economic Analysis Deep Agent System
 
-A sophisticated AI-powered economic analysis platform that leverages advanced language models and real-time economic data to provide comprehensive economic insights, forecasting, and market analysis using Deep Agents with LangGraph.
+A sophisticated AI-powered economic analysis platform that leverages advanced language models and real-time economic data to provide comprehensive economic insights, forecasting, and market analysis powered by Deep Agents with LangGraph.
 
 ## 🌟 Features
 
