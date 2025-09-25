@@ -1,0 +1,43 @@
+# DeepAgent Financial Systems Requirements - Minimal Version
+# This version focuses on core functionality and avoids dependency conflicts
+
+# Core LangChain and LangGraph
+langchain>=0.3.20
+langchain-openai>=0.2.0
+langgraph>=0.6.7
+langchain-core>=0.3.17
+langchain-community>=0.3.0
+openai>=1.0.0
+
+# Web Search and Research
+tavily-python>=0.5.0
+
+# Financial Data
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Data processing
+requests>=2.30.0
+beautifulsoup4>=4.12.0
+
+# FRED data analysis
+fredapi>=0.5.0
+
+# Optional: For enhanced financial analysis (install separately if needed)
+# matplotlib>=3.7.0
+# plotly>=5.0.0
+# scipy>=1.10.0
+# scikit-learn>=1.3.0
+
+# Development and Testing (install separately if needed)
+# jupyter>=1.0.0
+# notebook>=7.0.0
+# ipykernel>=6.0.0
+
+# Async support
+aiohttp>=3.8.0
