@@ -1,6 +1,6 @@
 # Economic Analysis Deep Agent System
 
-A sophisticated AI-powered economic analysis platform that leverages advanced language models and real-time economic data to provide comprehensive economic insights, forecasting, and market analysis.
+A sophisticated AI-powered economic analysis platform that leverages advanced language models and real-time economic data to provide comprehensive economic insights, forecasting, and market analysis using Deep Agents with LangGraph.
 
 ## 🌟 Features
 
@@ -20,30 +20,24 @@ A sophisticated AI-powered economic analysis platform that leverages advanced la
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11 
 - FRED API key (free registration at [FRED API](https://fred.stlouisfed.org/docs/api/api_key.html))
 - OpenAI API key
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Deep_Agent_Economic_Analysis
-   ```
-
-2. **Create and activate virtual environment**
+1. **Create and activate virtual environment**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables**
+3. **Set up environment variables**
    Create a `.env` file in the project root:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
@@ -51,7 +45,7 @@ A sophisticated AI-powered economic analysis platform that leverages advanced la
    TAVILY_API_KEY=your_tavily_api_key_here  # Optional for web search
    ```
 
-5. **Run the application**
+4. **Run the application**
    ```bash
    python main.py
    ```
@@ -90,15 +84,6 @@ The system will automatically:
 - **`planning_tools.py`** - Task planning and management utilities
 - **`config.py`** - Configuration and API key management
 
-### Technology Stack
-
-- **LangChain** - Framework for building LLM applications
-- **LangGraph** - Multi-agent workflow orchestration
-- **OpenAI GPT** - Advanced language model for analysis
-- **FRED API** - Federal Reserve Economic Data
-- **Pandas & NumPy** - Data processing and statistical analysis
-- **Requests** - HTTP client for API interactions
-
 ## 📈 Data Sources
 
 - **FRED (Federal Reserve Economic Data)**: Primary economic data source
@@ -114,33 +99,6 @@ The system will automatically:
 1. **OpenAI API Key**: For language model access
 2. **FRED API Key**: For economic data access (free)
 3. **Tavily API Key**: For web search capabilities (optional)
-
-### Environment Setup
-
-The system automatically loads configuration from:
-- Environment variables
-- `.env` file
-- Default fallback values
-
-## 📋 Requirements
-
-See `requirements.txt` for complete dependency list. Key packages include:
-
-- `langchain>=0.1.0`
-- `langgraph>=0.1.0`
-- `openai>=1.0.0`
-- `pandas>=1.5.0`
-- `numpy>=1.24.0`
-- `requests>=2.28.0`
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## 📄 License
 
@@ -165,14 +123,6 @@ This project is built using several open-source libraries and services:
 
 Special thanks to the Federal Reserve Bank of St. Louis for maintaining the FRED database and providing free access to economic data.
 
-## 📞 Support
-
-For questions, issues, or contributions, please:
-
-1. Check the existing issues on GitHub
-2. Create a new issue with detailed information
-3. Contact the development team
-
 ---
 
-**Economic Analysis Deep Agent System** - Powered by AI, Built for Insight
+**Economic Analysis Deep Agent System** 
